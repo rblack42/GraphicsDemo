@@ -1,0 +1,14 @@
+# Vim
+*~
+*swp
+
+# C/C++
+*.o
+*.a
+
+# Mac
+.DS_Store
+
+# PC
+*.exe
+
