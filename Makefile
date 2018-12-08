@@ -11,7 +11,7 @@ ifeq ($(OS), Windows_NT)
 	EXT = .exe
 	PREFIX =
 	RM	= del
-	CFLAGS = -I\tools\freeglut\include
+	CFLAGS += -I\tools\freeglut\include
 	LFLAGS = -L\tools\freeglut\lib\x64
 	LFLAGS += -lfreeglut -lglu32 -lopengl32 -Wl,--subsystem,windows
 	CXX = g++
