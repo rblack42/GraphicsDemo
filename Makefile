@@ -8,6 +8,7 @@ TSTTGT	= testapp
 CFLAGS	= -std=c++11 -Iinclude
 
 ifeq ($(OS), Windows_NT)
+	SHELL = cmd
 	EXT = .exe
 	PREFIX =
 	RM	= del
